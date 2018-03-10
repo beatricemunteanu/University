@@ -1,0 +1,87 @@
+html{
+      font-size: 14px;
+       }
+header{
+    	height: 4.5rem;
+    }
+ h1{
+  left:0;
+ }
+ svg{
+ 	visibility: hidden;
+ }
+  nav{
+	  left:32%;
+    }
+  ul.menu>li, ul.menu>li>ul.submenu>li{
+       font-size: 1.6rem;
+        width: 12.5rem;
+        height: 3rem;
+      }
+       
+  ul.menu>li>ul.submenu>li{
+   	height:5rem;
+    line-height: 1.5rem;
+   }
+   ul.menu>li:hover ul.submenu{
+   	  border-top:0.1rem solid black;
+      border-bottom:0.1rem solid black;
+
+   }
+
+  div.bgmain2{
+     background-image: url("../imagini/background2.jpg");
+    }
+   section.dE,.container{
+   	padding-right:0rem;
+   	padding-left:0rem;
+   }
+   section.dE{
+    padding-bottom: 12rem;
+   }
+  p.buton{
+  	top:1rem;
+  
+  }
+ figcaption{
+   	font-size: 1.7rem;
+   }
+   h3.titles,h3.titlea{
+      font-size: 2rem;
+      }
+  .column2{
+  	height: 48rem;
+  }
+  .column31,.column32{
+  	height:85rem;
+  }
+  .columnMain,.columnMain2{
+  	padding-left: 0;
+  	padding-right: 0;
+  }
+  section.box2{
+   	padding:2rem;
+   }
+
+   .columnMain2,img#imgMain{
+  	height:45rem;
+  }
+
+  h2.htextMain{
+  	margin-top: 2rem;
+  }
+  p.text, p.ptext,table,ol.listwrapper{
+   	font-size: 1.5rem;
+   }
+   aside>p.text,p.text3{
+   	font-size: 2rem;
+   }
+   footer#footerMain{
+    top:0;
+   }
+  footer{
+    margin-top:4rem;
+  }
+   footer#footerspatiu{
+      margin-top: 34rem;
+  }

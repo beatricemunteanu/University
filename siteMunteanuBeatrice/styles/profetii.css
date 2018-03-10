@@ -1,0 +1,60 @@
+    section#box{
+        
+        background-color:#6C8B55;
+        box-sizing: border-box;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 6rem;
+    }
+
+    .column31{
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+    padding: 1rem;
+    height: 50rem;
+    }
+
+   .column32{
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+    padding-top:1rem;
+    height: 50rem;
+    }
+    p.text3{
+    text-align: justify;
+    font-family: calibri;
+    font-size: 1.2em;
+    color: #EBF7E3;
+    }
+    table { 
+      box-sizing: border-box;
+        width:100%;
+        font-family: calibri;
+        font-size: 1.2rem;
+      background:#EBF7E3;
+      counter-reset:lucrariNo;
+    }
+    th{
+    background: linear-gradient(to bottom, #B5B5B5 0%, #AEC89D 100%);
+    padding: 1rem 0 1rem 0;
+     }
+   
+    tr:nth-child(even) { 
+        background:white; 
+    }
+    td {
+     width: 25rem; 
+     line-height:2em; 
+     text-align:center;
+      }
+    td:first-child { 
+        background:rgba(200,200,200,0.5); 
+        counter-increment:lucrariNo;
+         }
+
+   tfoot>tr>td:first-child:before{
+    text-align: center;
+    content:counter(lucrariNo)" lucrari ";
+   }

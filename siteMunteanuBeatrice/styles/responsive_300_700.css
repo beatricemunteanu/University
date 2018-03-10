@@ -1,0 +1,208 @@
+html{
+      font-size: 12px;
+       }
+  svg{
+  	visibility: hidden;
+  }
+
+    div.bgmain1{
+      background: url("../imagini/ceas2-2345.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: fixed;
+      }
+    section.welcome{
+      top:0rem;
+      width:100%;
+    }
+      p.btext{
+        padding-top: 0.5em;
+      }
+
+      h2.htextMain, h3.titles,h3.titlea{
+      font-size: 2rem;
+      }
+     p.text,p.ptext,aside>p.text,p.text3,table,ol.listwrapper{
+    font-size:1.5rem; 
+    margin-top: 2rem;
+    }
+
+
+  h1{
+     font-size: 1.5rem;
+     left:0;
+    }
+    
+    ul.menu{
+      margin-top: -1.5em;
+    }
+
+    ul.menu>li{
+     float: none;
+     width:10rem;
+    }
+
+    ul.menu>li:hover ul.submenu{
+      width:100%;
+      position:absolute;
+      left:-45%;
+      top:1.2rem;
+      margin-top: 1rem;
+      border-top:0.1rem solid black;
+      border-bottom:1px solid black;
+      background:#EBF7E3;
+
+    }
+     ul.submenu>li{
+       width:100%;
+      }
+    
+    ul.menu>li:hover ul.submenu>li{
+      float:left;
+      border:none;
+      position: relative;
+      left:3.5rem;
+      
+  } 
+
+  p.buton{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    top:1rem;
+  }
+  
+   div.bgmain2{
+    background-size: cover;
+   }
+   h2.wtext{
+     font-size: 3rem;
+  }
+  section.dE{
+    top:5rem;
+    padding:0;
+
+  }
+  .container{
+   	padding: 1rem 0 0 0;
+   }
+
+  .columnMain, .columnMain2,.column31,.column32{
+    float:none;
+    width: 100%;
+    margin-top: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+  } 
+   .column2{
+   	display: block;
+   	width:100%;
+    height: 40rem;
+   }
+   .column32{
+   	height:122rem;
+   }
+
+  figure.figwrap4{
+      float:none;
+      width:100%;
+      
+    }
+    img.img4{
+    	width: 100%;
+    	height: 100%;
+    }
+
+   figcaption{
+   	font-size: 1.5rem;
+   }
+   section.box2{
+   	padding:1rem;
+   }
+
+  @keyframes spin{
+        0% { 
+           z-index:1;
+           left:0rem; }
+        50% {
+          z-index:1;
+          left:25rem;
+        }
+        51%{
+          z-index:0;
+        }
+        
+        99% {
+          z-index:0;
+        }
+        100% {
+         z-index:1; 
+         left:0rem;
+             }
+      }
+
+.planet{
+  left:0;
+}
+
+  table.column32,table.column32 tr{
+			border:none;
+			padding:0;
+			margin:0;
+			display:block;
+		}
+		table.column32 td{
+			display:block;
+			padding:0.2em;
+			box-sizing:border-box; 
+		}
+		table.column32 thead{
+			display:none;
+		}
+		
+		table.column32 tbody td:nth-child(2)::before{
+			content:"Data aparitiei: ";
+		}
+		table.column32 tbody td:nth-child(3)::before{
+			content:"Categorie: ";
+		}
+		table.column32 tr>td:first-child{
+			background: linear-gradient(to bottom, #B5B5B5 0%, #AEC89D 100%);
+		}
+		table.column32 td{
+			border-bottom:none;
+			border-top:none;
+			float:left;
+			width:100%;
+		}
+		table.column32 td::before{
+			float:left;
+			width:28%;
+			font-weight:bold;
+			padding:0.1em;
+			line-height:100%;
+			text-align: left;
+		}
+		table.column32 td:last-child{
+			border-bottom:1px dashed grey;
+		}
+		table.column32 tr:first-child  td:first-child{
+			border-top:1px solid black;
+		}
+		table.column32 tr:last-child td:last-child{
+			border-bottom:1px solid black;
+		}
+        table.column32 tfoot>tr>td:first-child
+        {
+        	background: rgba(200,200,200,0.5);
+        }
+
+   footer#footerMain{
+    position: relative;
+    top:22rem;
+    font-size:1.5rem; 
+   }
+
+   footer{
+   	top:8rem;
+   	font-size:1.5rem; 
+   }
