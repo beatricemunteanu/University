@@ -1,0 +1,27 @@
+Beatrice Madalina
+
+Utilizatorul e pe post de spiridus care ajuta la indeplinirile profetiilor lui Emiocle. Utilizatorul are V vieti.
+Pe pamant sunt un numar N de case.In stanga chenarului de joc e un container cu profetiile lui Emiocle. La fiecare T milisecunde apare o noua profetie. 
+Utilizatorul trebuie sa indeplineasca profetiile de sus in jos.
+Daca greseste, utilizatorul pierde o viata. De asemenea, daca se umple containerul de profetii utilizatorul pierde jocul. 
+Pentru profetia trasnet, utilizatorul apasa butonul mouse-ului pe zona de pamant si fara a-i da release trage de cursor creand 
+un dreptunghi Spre dreptunghi, din punctul de centru-s sus al cerului pornesc NT traznete si demoleaza primele NT case din zona selectata.
+Pentru inundatie se apasa tasta i. Pamantul se face albastru si ramane asa pentru o secunda, apoi redevine verde si dispare 
+o casa in mod aleator.
+Pentru vulcan se apasa tasta v. Pamantul se face rosu si ramane asa pentru o secunda, apoi redevine verde si dispare o casa in mod 
+aleator.
+Din momentul disparitei unei case, dupa ce au trecut NS milisecunde, casa reapare in aceeasi pozitie (oamenii au reconstruit-o).
+Jocul se termina cand nu mai sunt case.
+Scorul consta in timpul de joc. Daca utilizatorul a pierdut vietile, scorul de joc e calculat inmultind timpul de joc cu numarul 
+de case ramase.
+
+*English*
+Press "i" to destroy a house when the upper prophecy says "inundatie" on the right board.The prophecy on the board disappears.
+Press "v" to destroy a house when the upper prophecy says "vulcan" on the right board.The prophecy on the board disappears.
+Draw a rectangle using the mouse to destroy N houses when the upper prophecy says "fulger" on the right board.The prophecy on the board disappears.
+The destroyed houses reapprear after ns miliseconds.
+The player wins when all the houses are destroyed.
+If the player runs out of lives, or the prophecy board is full of prophecies, or the time set is up, the player loses.
+The score is set by the game time. If the player loses, the score is calculated differently: game time * number of houses 
+that have yet to be destroyed.
+
