@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resurse>
+    <imagini>
+        <imagine w="100" h="100" id="casa" aparitie="multipla">
+            imagini/casa1.png
+        </imagine>
+    </imagini>
+
+    <sunete>
+    	<sunet id="fulger">
+    		sunete/fulger.mp3
+    	</sunet>
+        <sunet id="inundatie">
+            sunete/inundatie.mp3
+        </sunet>
+        <sunet id="vulcan">
+            sunete/Vulcan.mp3
+        </sunet>
+    </sunete>
+</resurse>

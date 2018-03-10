@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lang>
+    <mesaje lang="ro">
+        <mesaj id="fail">
+            Gresit
+        </mesaj>
+        <mesaj id="castig">
+            Yaaaaay ai castigat!
+        </mesaj>
+        <mesaj id="pierdut">
+            Ai murit!
+        </mesaj>
+        <mesaj id="timp">
+            Timpul s-a scurs!
+        </mesaj>
+
+    </mesaje>
+    <mesaje lang="eng">
+        <mesaj id="fail">
+            You failed.
+        </mesaj>
+        <mesaj id="castig">
+            You won!
+        </mesaj>
+        <mesaj id="pierdut">
+            You died!
+        </mesaj>
+        <mesaj id="timp">
+            Time out!
+        </mesaj>
+    </mesaje>
+</lang>

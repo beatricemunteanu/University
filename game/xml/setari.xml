@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<setari>
+    <nivele>
+        <incepator>
+            <nr_case>12</nr_case>
+            <timp_ap_profetie> 1500 </timp_ap_profetie>
+            <fulgere> 3 </fulgere>
+            <viata> 3 </viata>
+        </incepator>
+        <mediu>
+            <nr_case>18</nr_case>
+            <timp_ap_profetie> 1400 </timp_ap_profetie>
+            <fulgere> 3 </fulgere>
+            <viata> 3 </viata>
+
+        </mediu>
+        <avansat>
+            <nr_case>24</nr_case>
+            <timp_ap_profetie> 1300 </timp_ap_profetie>
+            <fulgere> 3 </fulgere>
+            <viata> 3 </viata>
+        </avansat>
+    </nivele>
+    
+    <cursor>
+        <height> 200 </height>
+        <width> 200 </width>
+    </cursor>
+
+</setari>
